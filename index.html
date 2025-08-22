@@ -21,6 +21,12 @@
     />
     <link rel="stylesheet" type="text/css" href="style.css" />
 
+    <!-- AOS Animate On Scroll CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    />
+
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
@@ -72,8 +78,13 @@
       <div id="content" class="site-content">
         <div class="section-wrapper">
           <h1 class="entry-title page-title block content-1170 center-relative">
-            I am creative problem solver from Bangkok. <br />
-            My passion is <b>Problem Solving </b> &amp; Coding.
+            <span class="typewriter"
+              >I am creative problem solver from Bangkok.</span
+            >
+            <br />
+            <span data-aos="fade-up" data-aos-delay="400"
+              >My passion is <b>Problem Solving </b> &amp; Coding.</span
+            >
           </h1>
 
           <img
@@ -88,7 +99,11 @@
                 <li class="grid-sizer"></li>
 
                 <li class="grid-item element-item p_two_third">
-                  <a class="item-link" href="portfolio-1.html">
+                  <a
+                    class="item-link portfolio-hover"
+                    href="portfolio-1.html"
+                    data-aos="zoom-in"
+                  >
                     <img
                       src="images/kalasa_cover.png"
                       alt="Kalasa Art Gallery"
@@ -102,7 +117,12 @@
                 </li>
 
                 <li class="grid-item element-item p_one_third">
-                  <a class="item-link" href="">
+                  <a
+                    class="item-link portfolio-hover"
+                    href=""
+                    data-aos="zoom-in"
+                    data-aos-delay="100"
+                  >
                     <img src="images/logo_color.png" alt="Thu Min" />
                     <div class="portfolio-text-holder">
                       <p class="portfolio-title">Thu Min</p>
@@ -112,7 +132,12 @@
                 </li>
 
                 <li class="grid-item element-item p_one_third">
-                  <a class="item-link" href="portfolio-3.html">
+                  <a
+                    class="item-link portfolio-hover"
+                    href="portfolio-3.html"
+                    data-aos="zoom-in"
+                    data-aos-delay="200"
+                  >
                     <img src="images/art_cannon.jpg" alt="Art Cannon" />
                     <div class="portfolio-text-holder">
                       <p class="portfolio-title">Art Cannon</p>
@@ -122,7 +147,12 @@
                 </li>
 
                 <li class="grid-item element-item p_one_third">
-                  <a class="item-link" href="portfolio-4.html">
+                  <a
+                    class="item-link portfolio-hover"
+                    href="portfolio-4.html"
+                    data-aos="zoom-in"
+                    data-aos-delay="300"
+                  >
                     <img src="images/mansory.png" alt="" />
                     <div class="portfolio-text-holder">
                       <p class="portfolio-title">Mansory</p>
@@ -132,7 +162,12 @@
                 </li>
 
                 <li class="grid-item element-item p_one_third">
-                  <a class="item-link" href="#">
+                  <a
+                    class="item-link portfolio-hover"
+                    href="#"
+                    data-aos="zoom-in"
+                    data-aos-delay="400"
+                  >
                     <img src="images/coming_soon.png" alt="" />
                     <div class="portfolio-text-holder">
                       <p class="portfolio-title">Coming Soon</p>
@@ -142,7 +177,12 @@
                 </li>
 
                 <li class="grid-item element-item p_one_third">
-                  <a class="item-link" href="portfolio-6.html">
+                  <a
+                    class="item-link portfolio-hover"
+                    href="portfolio-6.html"
+                    data-aos="zoom-in"
+                    data-aos-delay="500"
+                  >
                     <img src="images/ko_hades.png" alt="" />
                     <div class="portfolio-text-holder">
                       <p class="portfolio-title">Hades</p>
@@ -152,7 +192,12 @@
                 </li>
 
                 <li class="grid-item element-item p_two_third">
-                  <a class="item-link" href="#">
+                  <a
+                    class="item-link portfolio-hover"
+                    href="#"
+                    data-aos="zoom-in"
+                    data-aos-delay="600"
+                  >
                     <img src="images/coming_soon_01.png" alt="" />
                     <div class="portfolio-text-holder">
                       <p class="portfolio-title">Coming Soon</p>
@@ -219,5 +264,9 @@
     <script src="./js/jquery.fitvids.js"></script>
     <script src="./js/swiper.min.js"></script>
     <script src="./js/main.js"></script>
+    <!-- AOS Animate On Scroll JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="js/aos-init.js"></script>
+    <script src="js/typewriter.js"></script>
   </body>
 </html>

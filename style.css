@@ -53,6 +53,36 @@ body a:hover {
   color: #0000ff;
 }
 
+/* Portfolio hover effect */
+.portfolio-hover {
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s;
+  will-change: transform;
+  position: relative;
+  z-index: 1;
+}
+.portfolio-hover:hover {
+  transform: translateY(-10px) scale(1.04) rotate(-1deg);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12), 0 1.5px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* Typewriter effect */
+.typewriter {
+  display: inline-block;
+  border-right: 2px solid #0000ff;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: blink-caret 0.75s step-end infinite;
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #0000ff;
+  }
+}
+
 blockquote {
   font-family: "PT+Serif", sans-serif;
   font-size: 24px;
