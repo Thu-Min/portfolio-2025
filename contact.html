@@ -110,7 +110,7 @@
             <div class="one_half last">
               <div class="contact-form">
                 <form
-                  action="https://formsubmit.co/minnt5637@gmail.com"
+                  class="contact-form-container"
                   id="contact-form"
                   method="POST"
                 >
@@ -147,9 +147,9 @@
                   </p>
                   <input type="hidden" name="_captcha" value="false" />
                   <!-- <input type="hidden" name="" value="" /> -->
-                  <p class="contact-submit-holder">
-                    <input type="submit" value="SEND" />
-                  </p>
+                  <button type="submit" class="contact-submit-holder">
+                    Send Message
+                  </button>
                 </form>
               </div>
             </div>
@@ -189,7 +189,7 @@
         form.addEventListener("submit", async function (e) {
           e.preventDefault();
 
-          const submitBtn = form.querySelector(".contact-submit-btn");
+          const submitBtn = form.querySelector(".contact-submit-holder");
           const messageDiv = document.getElementById("form-message");
 
           // Show loading state
